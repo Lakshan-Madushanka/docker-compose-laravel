@@ -38,6 +38,9 @@ docker-compose up
 ```
 docker-compose up --build app
 ```
+```
+php artisan migrate
+```
 So stop all containers,
 ```
 docker-compose down
